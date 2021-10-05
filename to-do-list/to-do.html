@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <title>Font Awesome Icons</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type ="text/javascript" src="to-do.js">
+        </script>
+    </head>
+	<body>
+		<div class="conteudo">
+			<div class="topo">
+				<h2 style="margin:5px">Minha lista</h2>
+				<input type="text"
+					id="inputTituloNovaTarefa"
+					placeholder="Adicione uma nova tarefa"
+					>
+                <input type="text"
+                    id="inputTempoNovaTarefa"
+                    placehloder="30m">
+				<button id="btnaddtarefa" onclick="addNewTask()">
+                    
+					<i class="fa fa-plus"></i>
+				</button>
+			</div>
+			
+				<ul id="ListaDeTarefa">
+					<li id="task-model">
+						
+						<div>
+							<span class="textoTarefa"></span>
+							<span class="tempoTarefa"></span>
+						</div>
+						<div>
+							<button class= "btnEditar">
+								<i class= "fa fa-pencil" style="font-size:24px; color:blue"> </i>
+							</button>
+							<button class= "btnDeletar">
+								<i class="fa fa-trash-o" style="font-size:23px; color:red"></i>
+							</button>
+							
+									
+
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			
+	</body>  
+</html>
