@@ -86,6 +86,9 @@ function addNewTask(event) {
         li.parentNode.removeChild(li);
     }
 
+
+    
+
     taskModelListItem.parentElement.appendChild(newListItem);
 
     //se deu tudo certo até aqui, essa linha vai incrementar o contador de tarefas que temos atualmente
