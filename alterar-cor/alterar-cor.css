@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fundo{
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: red;
+}
+.azul{
+        background-color: blue;
+        font-size: 25px;
+}
+
+.verde{
+        background-color: green;
+        font-size: 25px;
+}
+
+.preto{
+        background-color: black;
+        font-size: 25px;
+}
+
+.roxo{
+    background-color: purple;
+    font-size: 25px;
+}
+
+button{
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 300;
+    margin: 0 10px;
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 90vw;
+    text-align: center;
+}
